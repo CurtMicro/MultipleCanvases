@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+    height: max-content;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.left-container,
+.right-container {
+
+    background-color: grey;
+    height: 50vh;
+    width: 50%;
+    outline: 1px solid red;
+}
